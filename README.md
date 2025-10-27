@@ -1,5 +1,5 @@
 # 🧠 Dermatology Meets Deep Learning: Skin Disease Classification  
-### Classifying 22 Skin Diseases using ResNet & EfficientNet  
+### Classifying 22 Skin Diseases using ResNet 
 
 Skin diseases are among the most common medical conditions worldwide, yet early and accurate diagnosis remains a challenge — especially in underserved regions.  
 This project demonstrates how **deep learning** can be leveraged to automatically classify **22 different skin diseases** from **dermatoscopic images** using **PyTorch**.
