@@ -105,15 +105,14 @@ B.Tech CSE | AI & ML Enthusiast
 
 ```mermaid
 flowchart TD
-    A[ Dataset Acquisition]:::data --> B[ Data Preprocessing]:::data
-    B --> C[ Model Selection]:::model
-    C --> D[ Training Phase]:::model
-    D --> E[ Evaluation]:::eval
-    E --> F[ Explainability (Grad-CAM)]:::exp
-    F --> G[ Results & Insights]:::result
-    G --> H[ Deployment / Future Scope]:::deploy
-
-    %% Styles
+    A[Dataset Acquisition]:::data --> B[Data Preprocessing]:::data
+    B --> C[Model Selection]:::model
+    C --> D[Training Phase]:::model
+    D --> E[Evaluation]:::eval
+    E --> F[Explainability - Grad-CAM]:::exp
+    F --> G[Results & Insights]:::result
+    G --> H[Deployment / Future Scope]:::deploy
+    
     classDef data fill:#cce5ff,stroke:#0056b3,color:#000,stroke-width:1px;
     classDef model fill:#ffe0b3,stroke:#cc8400,color:#000,stroke-width:1px;
     classDef eval fill:#b3ffb3,stroke:#00b300,color:#000,stroke-width:1px;
