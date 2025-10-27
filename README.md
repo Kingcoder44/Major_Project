@@ -9,8 +9,7 @@ This project demonstrates how **deep learning** can be leveraged to automaticall
 ## 🚀 Project Highlights
 - 🧩 **Deep Learning Models** — ResNet18 (baseline) & EfficientNet-B0 (optimized)  
 - ⚖️ **Weighted Cross Entropy Loss** — handles class imbalance effectively  
-- 📊 **Comprehensive Evaluation** — accuracy, F1-score, confusion matrix, ROC, PR curves  
-- 🔥 **Explainability with Grad-CAM** — visualize model attention on dermatoscopic features  
+- 📊 **Comprehensive Evaluation** — accuracy, F1-score, confusion matrix, PR curves  
 - 💾 **Fully Reproducible** — dataset download, preprocessing, training, and visualization included  
 
 ---
@@ -43,7 +42,7 @@ If running on **Google Colab**, upload your Kaggle API key (`kaggle.json`) and e
 ## 🧠 Model Architecture
 Two CNN architectures are compared:
 1. **ResNet18** – lightweight and reliable baseline  
-2. **EfficientNet-B0** – optimized performance using compound scaling  
+
 
 Each model was trained with:
 - Data augmentation (`torchvision.transforms`)  
@@ -57,8 +56,6 @@ Each model was trained with:
 - Precision, Recall, F1-score  
 - Confusion Matrix  
 - ROC & Precision-Recall Curves  
-
-Visual insights are also provided using **Grad-CAM** to highlight discriminative regions the models focus on.
 
 ---
 
