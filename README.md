@@ -99,3 +99,25 @@ You’re free to use, modify, and distribute with attribution.
 **Kushagra Srivastava**  
 B.Tech CSE | AI & ML Enthusiast  
 [LinkedIn](https://linkedin.com) *(add your link)*  
+
+
+## 🔄 Project Workflow (Mermaid Diagram)
+
+```mermaid
+flowchart TD
+    A[📥 Dataset Acquisition]:::data --> B[🧹 Data Preprocessing]:::data
+    B --> C[🧠 Model Selection]:::model
+    C --> D[⚙️ Training Phase]:::model
+    D --> E[📊 Evaluation]:::eval
+    E --> F[🔥 Explainability (Grad-CAM)]:::exp
+    F --> G[🏁 Results & Insights]:::result
+    G --> H[🚀 Deployment / Future Scope]:::deploy
+
+    %% Styles
+    classDef data fill:#cce5ff,stroke:#0056b3,color:#000,stroke-width:1px;
+    classDef model fill:#ffe0b3,stroke:#cc8400,color:#000,stroke-width:1px;
+    classDef eval fill:#b3ffb3,stroke:#00b300,color:#000,stroke-width:1px;
+    classDef exp fill:#d9b3ff,stroke:#7300e6,color:#000,stroke-width:1px;
+    classDef result fill:#f2f2f2,stroke:#808080,color:#000,stroke-width:1px;
+    classDef deploy fill:#b3e6cc,stroke:#009973,color:#000,stroke-width:1px;
+```
